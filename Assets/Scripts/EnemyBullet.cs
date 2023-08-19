@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EnemyBullet : MonoBehaviour
 {
@@ -9,7 +10,6 @@ public class EnemyBullet : MonoBehaviour
     public float force;
     private float timer;
 
-    // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -21,8 +21,6 @@ public class EnemyBullet : MonoBehaviour
         float rot = Mathf.Atan2(-direction.y, -direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot + 90);
     }
-
-    // Update is called once per frame
     void Update()
     {
         timer += Time.deltaTime;
@@ -37,8 +35,24 @@ public class EnemyBullet : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<PlayerHealth>().health -= 2;
-            Destroy(gameObject);
+            PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+            playerHealth.health -= 2; // Reduz a saúde do jogador em 2 quando atingido pela bala.
+
+            if (playerHealth.health <= 0)
+            {
+                PerformPlayerRespawn(other.gameObject); // Chama a função de respawn se o jogador morrer.
+            }
+
+            Destroy(gameObject); // Destroi a bala.
+            }
         }
+    }
+
+    void PerformPlayerRespawn(GameObject player)
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 }
