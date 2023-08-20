@@ -25,7 +25,7 @@ public class EnemyBullet : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer > 5)
+        if(timer > 6)
         {
             Destroy(gameObject);
         }
@@ -38,7 +38,7 @@ public class EnemyBullet : MonoBehaviour
             PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-            playerHealth.health -= 2; // Reduz a saúde do jogador em 2 quando atingido pela bala.
+            playerHealth.health -= 4; // Reduz a saúde do jogador em 2 quando atingido pela bala.
 
             if (playerHealth.health <= 0)
             {

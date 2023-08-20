@@ -33,11 +33,11 @@ public class Playermove : MonoBehaviour
 
         if (Move >= 0.1f || Move <= -0.1f)
         {
-            anim.SetBool("isRunning", true);
+            anim.SetBool("isMoving", true);
         }
         else
         {
-            anim.SetBool("isRunning", false);
+            anim.SetBool("isMoving", false);
         }
 
         if (!isFacingRight && Move > 0f)
