@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f6f1558a28f067640a28b40186fcac94
+guid: 88bd44b5dd4efbf458e498ce89784eb0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,8 +45,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -105,190 +105,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_0
+      name: spritesheet_pulando-Sheet (3)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb00ecc266929e04099fe0ca42bb853f
-      internalID: -715276939
+      spriteID: 774027702e10c9b4f89be54eb927a764
+      internalID: 364283657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_1
+      name: spritesheet_pulando-Sheet (3)_1
       rect:
         serializedVersion: 2
         x: 50
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c53fb3439e2eebd449156e4f39014406
-      internalID: -1181482366
+      spriteID: d719172adf459604b8ae24ce3eec81f2
+      internalID: -1263909712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_2
+      name: spritesheet_pulando-Sheet (3)_2
       rect:
         serializedVersion: 2
         x: 100
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f68610be1f7538488aa6b7536f0c22b
-      internalID: 1481084223
+      spriteID: 5bf4d33fc887c3e48aae81e148a07503
+      internalID: -740752263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_3
+      name: spritesheet_pulando-Sheet (3)_3
       rect:
         serializedVersion: 2
         x: 150
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.35}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e178455205419946af6f11b905df1c6
-      internalID: -1617310767
+      spriteID: 614cf7266981fc14599dcf655fe1fb2e
+      internalID: -668254164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_4
+      name: spritesheet_pulando-Sheet (3)_4
       rect:
         serializedVersion: 2
         x: 200
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dffc98d984548e342a598d62f974e931
-      internalID: -1034613780
+      spriteID: d7811c0dbe3a2cc4d8cb6a03cbb694b1
+      internalID: -2011432345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_5
+      name: spritesheet_pulando-Sheet (3)_5
       rect:
         serializedVersion: 2
         x: 250
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55b5506f78147dd4982e6dcaadf573fa
-      internalID: -1086997327
+      spriteID: 26f0362e1fd35e047acb73a0e905dbed
+      internalID: 685925398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_6
+      name: spritesheet_pulando-Sheet (3)_6
       rect:
         serializedVersion: 2
         x: 300
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ea41082ec46d9e41871d41796321a34
-      internalID: -1623943164
+      spriteID: e37af8a08a6d21b42ab9400fd5301cbe
+      internalID: -1286641447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_7
+      name: spritesheet_pulando-Sheet (3)_7
       rect:
         serializedVersion: 2
         x: 350
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b13900156d410e446a58dd75358dd9c0
-      internalID: -1161036572
+      spriteID: 12747b65d6f0b0848aa23f4c018e2a1e
+      internalID: 1127698904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: spritesheet_pulando-Sheet_8
+      name: spritesheet_pulando-Sheet (3)_8
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 50
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.2}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c1544a05241ac408da54981ad55111
-      internalID: -275269107
+      spriteID: 7beaedbcd46402e4881891177dab44c9
+      internalID: 212595033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_pulando-Sheet (3)_9
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 50
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17167bb9a78a1a6499b5a0ac41e94a1a
+      internalID: 1857609870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_pulando-Sheet (3)_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 0
+        width: 50
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0ed5c1e67ddec4ea92c3811eab9641
+      internalID: 2067742506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_pulando-Sheet (3)_11
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 0
+        width: 50
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0c02ca58c21464c967b85a17abbb8a
+      internalID: -2070539904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_pulando-Sheet (3)_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 50
+        height: 80
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a164504a2507c47ae26299bc2fea3b
+      internalID: 2041271371
       vertices: []
       indices: 
       edges: []
@@ -304,15 +388,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      spritesheet_pulando-Sheet_5: -1086997327
-      spritesheet_pulando-Sheet_0: -715276939
-      spritesheet_pulando-Sheet_6: -1623943164
-      spritesheet_pulando-Sheet_1: -1181482366
-      spritesheet_pulando-Sheet_8: -275269107
-      spritesheet_pulando-Sheet_3: -1617310767
-      spritesheet_pulando-Sheet_2: 1481084223
-      spritesheet_pulando-Sheet_7: -1161036572
-      spritesheet_pulando-Sheet_4: -1034613780
+      spritesheet_pulando-Sheet (3)_8: 212595033
+      spritesheet_pulando-Sheet (3)_6: -1286641447
+      spritesheet_pulando-Sheet (3)_9: 1857609870
+      spritesheet_pulando-Sheet (3)_1: -1263909712
+      spritesheet_pulando-Sheet (3)_12: 2041271371
+      spritesheet_pulando-Sheet (3)_7: 1127698904
+      spritesheet_pulando-Sheet (3)_10: 2067742506
+      spritesheet_pulando-Sheet (3)_4: -2011432345
+      spritesheet_pulando-Sheet (3)_5: 685925398
+      spritesheet_pulando-Sheet (3)_11: -2070539904
+      spritesheet_pulando-Sheet (3)_2: -740752263
+      spritesheet_pulando-Sheet (3)_0: 364283657
+      spritesheet_pulando-Sheet (3)_3: -668254164
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
