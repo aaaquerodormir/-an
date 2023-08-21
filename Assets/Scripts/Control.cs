@@ -22,18 +22,19 @@ public class Control : MonoBehaviour
         xmov = Input.GetAxis("Horizontal");
 
         // Verifica se o botão de pulo foi pressionado e controla o pulo duplo.
-        if (Input.GetButtonDown("Jump"))
-        {
-            //if (jumptime < 0.1f)
-            //{
-            //    doublejump = false;
-            //}
-        }
+        //if (Input.GetButtonDown("Jump"))
+        //{
+        //    if (jumptime < 0.1f)
+        //    {
+        //        doublejump = false;
+        //    }
+        //}
 
         // Define o estado de pulo com base na entrada do usuário.
         if (Input.GetButton("Jump"))
         {
             jump = true;
+
         }
         else
         {
@@ -60,7 +61,7 @@ public class Control : MonoBehaviour
         anima.SetFloat("Velocity", Mathf.Abs(xmov)); // Define a velocidade no Animator.
 
         // Adiciona uma força para mover o personagem.
-        rdb.AddForce(new Vector2(xmov * 20 / (rdb.velocity.magnitude + 1), 0));
+        rdb.AddForce(new Vector2(xmov * 40 / (rdb.velocity.magnitude + 1), 0));
 
         RaycastHit2D hit;
 
@@ -92,7 +93,7 @@ public class Control : MonoBehaviour
         // Verifica a distância do chão e aplica uma força de pulo se necessário.
         if (hit.distance < 0.1f)
         {
-            jumptime = 3;
+            jumptime = 2.6f;
         }
 
         if (jump)

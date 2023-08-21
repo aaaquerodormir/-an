@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3179968041921614214}
   - component: {fileID: 3623473623843085671}
   m_Layer: 0
-  m_Name: Tiro
+  m_Name: Tiro - Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
