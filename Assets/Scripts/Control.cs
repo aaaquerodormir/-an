@@ -61,7 +61,7 @@ public class Control : MonoBehaviour
         anima.SetFloat("Velocity", Mathf.Abs(xmov)); // Define a velocidade no Animator.
 
         // Adiciona uma força para mover o personagem.
-        rdb.AddForce(new Vector2(xmov * 40 / (rdb.velocity.magnitude + 1), 0));
+        rdb.AddForce(new Vector2(xmov * 45 / (rdb.velocity.magnitude + 1), 0));
 
         RaycastHit2D hit;
 

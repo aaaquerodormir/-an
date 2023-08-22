@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public float health;
     public float maxHealth;
     public Image healthBar;
+    public Image healthbar2;
 
 
     // Start is called before the first frame update
