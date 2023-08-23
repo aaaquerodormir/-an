@@ -4078,6 +4078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35aa1eecdd7a4454f9df9978602285dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 1308652719}
   smoothTime: 0.2
   positionOffset: {x: 0, y: 0, z: -10}
   xLimit: {x: -2.13, y: 2043}
@@ -11511,6 +11512,10 @@ PrefabInstance:
     - target: {fileID: 8714741326523292420, guid: 5c6d30afcd910464d81464e3a4126698, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8714741326523292422, guid: 5c6d30afcd910464d81464e3a4126698, type: 3}
+      propertyPath: m_Constraints
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8714741326523292536, guid: 5c6d30afcd910464d81464e3a4126698, type: 3}
       propertyPath: m_RootOrder

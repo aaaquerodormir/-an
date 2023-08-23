@@ -7,7 +7,7 @@ public class Cam : MonoBehaviour
 {
 
 
-  Transform target;
+    [SerializeField] Transform target;
   Vector3 velocity = Vector3.zero;
     
   [Range(0,1)]
