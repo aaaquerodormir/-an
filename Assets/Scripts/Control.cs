@@ -8,9 +8,10 @@ public class Control : MonoBehaviour
     float xmov; // Variável para guardar o movimento horizontal.
     public Rigidbody2D rdb; // Referência ao Rigidbody2D do personagem.
     bool jump; //doublejump; // Flags para controle de pulo e pulo duplo.
-    float jumptime, jumptimeside; // Controla a duração dos pulos.
-    public ParticleSystem fire; // Sistema de partículas para o efeito de fogo.
+    float jumptime;//, jumptimeside; // Controla a duração dos pulos.
 
+    [SerializeField] private int speed;
+    [SerializeField] private float jumpSpeed;
     void Start()
     {
         // Método para inicializações. Não está sendo utilizado neste código.
@@ -41,18 +42,11 @@ public class Control : MonoBehaviour
             jump = false;
             //doublejump = false;
             jumptime = 0;
-            jumptimeside = 0;
+            //jumptimeside = 0;
         }
 
-        // Desativa o estado de "Fire" no Animator.
-        anima.SetBool("Fire", false);
 
-        // Ativa o efeito de fogo e define o estado "Fire" no Animator quando o botão de fogo é pressionado.
-        if (Input.GetButtonDown("Fire1"))
-        {
-            fire.Emit(1);
-            anima.SetBool("Fire", true);
-        }
+    
     }
 
     void FixedUpdate()
@@ -61,7 +55,8 @@ public class Control : MonoBehaviour
         anima.SetFloat("Velocity", Mathf.Abs(xmov)); // Define a velocidade no Animator.
 
         // Adiciona uma força para mover o personagem.
-        rdb.AddForce(new Vector2(xmov * 45 / (rdb.velocity.magnitude + 1), 0));
+        //rdb.AddForce(new Vector2(xmov * speed / (rdb.velocity.magnitude + 1), 0));
+        rdb.velocity = new Vector2(xmov * speed, rdb.velocity.y);
 
         RaycastHit2D hit;
 
@@ -93,7 +88,7 @@ public class Control : MonoBehaviour
         // Verifica a distância do chão e aplica uma força de pulo se necessário.
         if (hit.distance < 0.1f)
         {
-            jumptime = 2.6f;
+            jumptime = jumpSpeed;
         }
 
         if (jump)
@@ -108,7 +103,7 @@ public class Control : MonoBehaviour
     {
         if (hitside.distance < 0.3f)
         {
-            jumptimeside = 1;
+            //jumptimeside = 1;
         }
 
         //if (doublejump)

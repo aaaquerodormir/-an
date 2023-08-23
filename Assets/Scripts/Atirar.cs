@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class Atirar : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform shootingPoint;
+    public GameObject bulletPrefab;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+     if (Input.GetButtonDown("Fire1"))
+        {
+            Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+        }
     }
 }
+
