@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Piratinha_grrr.unity
     guid: ead230639e17d6b4993285a37b579c32
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/scene-1.unity
+    guid: e08243922417842828467f43d5971f1e
   m_configObjects: {}
