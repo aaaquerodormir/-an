@@ -17,7 +17,7 @@ public class Patrulha : MonoBehaviour
 
         if (right == true)
         {
-            transform.position += new Vector3(0.004f, 0, 0);
+            transform.position += new Vector3(0.002f, 0, 0);
             if (transform.position.x > maxr)
             {
                 right = false;
@@ -26,7 +26,7 @@ public class Patrulha : MonoBehaviour
         }
         else
         {
-            transform.position -= new Vector3(0.008f, 0, 0);
+            transform.position -= new Vector3(0.002f, 0, 0);
             if (transform.position.x < maxl)
             {
                 right = true;

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Atirar : MonoBehaviour
 {
+    public Animator anima;
     public Transform shootingPoint;
     public GameObject bulletPrefab;
 
@@ -12,6 +13,11 @@ public class Atirar : MonoBehaviour
      if (Input.GetButtonDown("Fire1"))
         {
             Instantiate(bulletPrefab, shootingPoint.position, transform.rotation);
+            anima.SetBool("Fire", true);
+        }
+     else
+        {
+            anima.SetBool("Fire", false);
         }
     }
 }
