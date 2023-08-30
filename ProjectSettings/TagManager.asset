@@ -8,6 +8,7 @@ TagManager:
   - Ground
   - Damage
   - Bala
+  - HealthPotion
   layers:
   - Default
   - TransparentFX

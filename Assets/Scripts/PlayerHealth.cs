@@ -8,7 +8,6 @@ public class PlayerHealth : MonoBehaviour
     public float health;
     public float maxHealth;
     public Image healthBar;
-    //public Image healthbar2;
 
 
     // Start is called before the first frame update
@@ -26,5 +25,12 @@ public class PlayerHealth : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void Heal(float amount)
+    {
+        health += amount;
+        // Certifique-se de que a saúde não ultrapasse o máximo
+        health = Mathf.Min(health, maxHealth);
     }
 }

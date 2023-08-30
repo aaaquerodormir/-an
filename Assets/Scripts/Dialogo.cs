@@ -12,7 +12,6 @@ public class Dialogo : MonoBehaviour
     public float radious;
 
     private DialogoControl dc;
-    bool onRadious;
 
     private void Start()
     {
@@ -26,23 +25,16 @@ public class Dialogo : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && onRadious)
+        if (Input.GetKeyDown(KeyCode.F) && dc.CanStartSpeech())
         {
             dc.Speech(profile, speechTxt, actorName);
         }
     }
 
-    public void Interact()
+    private void Interact()
     {
         Collider2D hit = Physics2D.OverlapCircle(transform.position, radious, playerLayer);
-        if(hit != null)
-        {
-            onRadious = true;
-        }
-        else
-        {
-            onRadious = false;
-        }
+        dc.UpdatePlayerInRadious(hit != null);
     }
 
     private void OnDrawGizmosSelected()
