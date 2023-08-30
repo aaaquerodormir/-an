@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DialogoControl : MonoBehaviour
 {
     [Header("Components")]
-    public GameObject dialogueObj;
+    public GameObject dialogoObj;
     public Image profile;
     public Text speechText;
     public Text actorNameText;
@@ -14,11 +14,11 @@ public class DialogoControl : MonoBehaviour
     [Header("Settings")]
     public float typingSpeed;
     private string[] sentences;
-    private int index;
+    public int index;
 
     public void Speech(Sprite p, string[] txt, string actorName)
     {
-        dialogueObj.SetActive(true);
+        dialogoObj.SetActive(true);
         profile.sprite = p;
         sentences = txt;
         actorNameText.text = actorName;
@@ -49,7 +49,7 @@ public class DialogoControl : MonoBehaviour
             {
                 speechText.text = "";
                 index = 0;
-                dialogueObj.SetActive(false);
+                dialogoObj.SetActive(false);
             }
         }
     }
