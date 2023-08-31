@@ -9,6 +9,7 @@ TagManager:
   - Damage
   - Bala
   - HealthPotion
+  - Collider
   layers:
   - Default
   - TransparentFX

@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
 {
-   public GameObject bullet;
+    public GameObject bullet;
     public Transform bulletPos;
-    
+
     private float timer;
     private float shootInterval = 3f; // Intervalo de tempo entre os tiros.
     private GameObject player;
@@ -27,14 +27,28 @@ public class EnemyShooting : MonoBehaviour
 
             if (timer >= shootInterval)
             {
-                shoot();
+                Shoot();
                 timer = 0; // Reseta o timer.
+            }
+
+            // Verifique a posição do jogador em relação ao inimigo
+            if (player.transform.position.x > transform.position.x)
+            {
+                // Jogador está à direita, rotacione para a direita
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else
+            {
+                // Jogador está à esquerda, rotacione para a esquerda
+                transform.rotation = Quaternion.Euler(0, 180, 0);
             }
         }
     }
 
-    void shoot()
+    void Shoot()
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
     }
+
+
 }
