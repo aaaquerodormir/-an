@@ -10,6 +10,7 @@ TagManager:
   - Bala
   - HealthPotion
   - Collider
+  - Spike
   layers:
   - Default
   - TransparentFX
