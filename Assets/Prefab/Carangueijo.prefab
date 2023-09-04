@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 6747723922723618070}
   - component: {fileID: 3083786696048633048}
   - component: {fileID: 3280987409115627520}
-  - component: {fileID: 4368483072347136090}
   - component: {fileID: 7542690559317906892}
   - component: {fileID: 903067615378904717}
+  - component: {fileID: 2436569542686950758}
   m_Layer: 0
   m_Name: Carangueijo
   m_TagString: Untagged
@@ -137,7 +137,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 6
 --- !u!114 &3083786696048633048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,20 +172,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &4368483072347136090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8375918783285141199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04398dd089a159b4285373595a9a95dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxr: 11.05
-  maxl: 7.47
 --- !u!114 &7542690559317906892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -213,3 +199,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lives: 10
+--- !u!114 &2436569542686950758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8375918783285141199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255a183517e977845b17c1d19ed8febc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocidade: 2
+  distanciaDePerseguicao: 5
