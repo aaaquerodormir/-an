@@ -9,6 +9,8 @@ public class EnemyBullet : MonoBehaviour
     private Rigidbody2D rb;
     public float force;
     private float timer;
+    public Animator anim;
+    public bool isFacingRight;
 
     void Start()
     {
@@ -36,11 +38,14 @@ public class EnemyBullet : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
+            if (playerHealth != null && timer > 2)
             {
             playerHealth.health -= 4; // Reduz a saúde do jogador em 2 quando atingido pela bala.
+                isFacingRight = true;
 
-            if (playerHealth.health <= 0)
+
+
+                if (playerHealth.health <= 0)
             {
                 PerformPlayerRespawn(other.gameObject); // Chama a função de respawn se o jogador morrer.
             }

@@ -21,6 +21,7 @@ public class Control : MonoBehaviour
 
     void Update()
     {
+        Cursor.visible = false;
         // Captura o movimento horizontal do jogador.
         xmov = Input.GetAxis("Horizontal");
 
