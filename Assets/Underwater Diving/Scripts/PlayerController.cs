@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour{
 	float timeLeft = 2f;
 
 	private Rigidbody2D myRigidBody;
-
-	private Animator myAnim;
+    public bool temChave;
+    private Animator myAnim;
 
 	public GameObject bubbles;
 
@@ -20,7 +20,8 @@ public class PlayerController : MonoBehaviour{
 	void Start (){
 		myRigidBody = GetComponent<Rigidbody2D> ();	
 		myAnim = GetComponent<Animator> ();
-	}
+        temChave = false;
+    }
 	
 	// Update is called once per frame
 	void Update (){

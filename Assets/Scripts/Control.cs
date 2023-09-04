@@ -21,7 +21,8 @@ public class Control : MonoBehaviour
 
     void Update()
     {
-        Cursor.visible = false;
+        //Cursor.visible = false;  // Mouse aparecer na tela ou não
+
         // Captura o movimento horizontal do jogador.
         xmov = Input.GetAxis("Horizontal");
 
@@ -131,12 +132,5 @@ public class Control : MonoBehaviour
         if (rdb.velocity.x < 0.5f) transform.rotation = Quaternion.Euler(0, 180, 0);
     }
 
-    // Detecção de colisão com objetos marcados com a tag "Damage".
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.collider.CompareTag("Damage"))
-    //    {
-    //       LevelManager.instance.LowDamage(); // Chama a função para aplicar dano.
-    //    }
-    //}
+  
 }
