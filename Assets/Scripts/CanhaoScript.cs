@@ -5,7 +5,7 @@ using UnityEngine;
 public class CanhaoScript : MonoBehaviour
 {
     public GameObject projetilPrefab; // Prefab do projetil.
-    public float forcaTiro = 10f; // Força do tiro.
+    public float forcaTiro = 5f; // Força do tiro.
     public float intervaloDeTiro = 8f; // Intervalo entre os tiros em segundos.
 
     private float tempoDesdeUltimoTiro = 0f;

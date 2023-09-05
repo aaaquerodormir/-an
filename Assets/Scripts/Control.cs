@@ -10,12 +10,14 @@ public class Control : MonoBehaviour
     bool jump; //doublejump; // Flags para controle de pulo e pulo duplo.
     float jumptime;//, jumptimeside; // Controla a duração dos pulos.
     public bool temChave;
+    
 
     [SerializeField] private int speed;
     [SerializeField] private float jumpSpeed;
     void Start()
     {
         temChave = false;
+        
         // Método para inicializações. Não está sendo utilizado neste código.
     }
 

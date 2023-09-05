@@ -121,8 +121,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 10
-  anim: {fileID: 0}
-  isFacingRight: 0
 --- !u!61 &3623473623843085671
 BoxCollider2D:
   m_ObjectHideFlags: 0
