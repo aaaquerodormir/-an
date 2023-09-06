@@ -6,21 +6,23 @@ using UnityEngine.SceneManagement;
 public class MenuGame : MonoBehaviour
 {
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] private GameObject Opcoes;
 
     public void QuitGame()
     {
         Application.Quit();
     }
+
+    public void Controles()
+    {
+        SceneManager.LoadScene("Opcoes");
+    }
+    
+    public void SairControles()
+    {
+        SceneManager.LoadScene("Menu");
+    }
+
 
     public void PlayGame()
     {
