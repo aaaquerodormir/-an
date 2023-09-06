@@ -24,6 +24,7 @@ public class Damage : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            StartCoroutine(Blink());
             PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
@@ -39,5 +40,18 @@ public class Damage : MonoBehaviour
     void RestartScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    IEnumerator Blink()
+    {
+        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+        for (int i = 0; i < 5; i++)
+        {
+            renderer.color = new Color(1, 0, 0);
+
+            yield return new WaitForSeconds(0.1f);
+
+            renderer.color = new Color(1, 1, 1);
+        }
     }
 }
