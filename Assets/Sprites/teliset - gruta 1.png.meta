@@ -1,0 +1,2059 @@
+fileFormatVersion: 2
+guid: ec992fe48fb4a274e85437d57df0a28f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: teliset - gruta 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c5ad3b2338a46488bb3d6a02870571
+      internalID: -1358122191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5904baa83516143bc33eaac403e9c1
+      internalID: -997416133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faba960e67851314c88f0f6bd993fa50
+      internalID: 1176589156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd8aa5e3337c9a4a886bf6e4079b19c
+      internalID: -770729442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04204f6de26d34c8198298b25b067f
+      internalID: 19999553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588b0bac37258324ab9d34c8e2f5d0fa
+      internalID: -1670886050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3227785d983df429bc2b6a13e2599a
+      internalID: 2080218110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59df0703f996dea4c9be198b751bfe2e
+      internalID: -1058051851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979b8c65a1e605b4a84590258ee2ebd5
+      internalID: 1779060237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa77491f6666e6048a9cc6f24ed7ff1a
+      internalID: 1245350193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176649ca875d39e4d99f44f5db7edb57
+      internalID: -1365838767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe0d590664d6e04e8a158270f240542
+      internalID: -855579485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_12
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d603b360363b940933476cd39cc269
+      internalID: 1496028168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_13
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7073f0e4346b9954cbcbe8cd8cbb0db6
+      internalID: -64010244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_14
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7391abf8667c3fc448e039b2c2643e3e
+      internalID: 1757471045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 268
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c57bc8416606e540a3901a88ed7c061
+      internalID: 1840573945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8eaafc672fe384f884c72f43a47780
+      internalID: -1721001756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cba84631f417340975af3b712b2854
+      internalID: -991350224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f883814fcda33f2499ba5809b4e0d89e
+      internalID: -490192823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bdf4eba63b90a7409c6f12b3b7f34d1
+      internalID: 2044884576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a07ab4d7106b348a877f5664921866
+      internalID: -1510907001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c077f70778ef64eb9417ac9afdf4af
+      internalID: 865361071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17d15c32a7d57d438a5cc2fea39a691
+      internalID: -847737799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fe6905fd85b0c4f852b0378bf52ce7
+      internalID: -1008119637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c297414042a68f446ab8820e9714dfbd
+      internalID: -1101606529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_25
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5472313abfcf46843a5cd114947388e4
+      internalID: 839245076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8eaa9e4c1d7d2342b27ddf05b8e65be
+      internalID: 1156059316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71f4ec8bd7f444458efca676db3eaf9
+      internalID: 1263599429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_28
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41eb1e604d34fa4e823a02661656173
+      internalID: 585352172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_29
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7dd17bfd6269e4eb1261f451907d2b
+      internalID: -704932958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_30
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 236
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2333caa861ad249839192fa6840faa
+      internalID: -1505955039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82c0eff710c38e345bd86e100e754a5f
+      internalID: 1415214752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5844fa0f4fa36e241b1d636121302b03
+      internalID: 582675986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e136a38e4898644e910628df93a54f2
+      internalID: -178247753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9fe85f5d8a3214e9a71ca99a065594
+      internalID: 576937879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fd2ac0fa33b684997d7e5afdeb251d
+      internalID: 289191529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_36
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e0dc9e2043aa9449f008963b08e113
+      internalID: -225017728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f324e9e5c09674468b6764398df9e85
+      internalID: 1883184776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61416c74e7e672e4fba897231776c06a
+      internalID: -677005790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1cd9c505ed6c74fa20cb7aeb37b25a
+      internalID: -1171443465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8bffb0908803342b3b28541405cfdc
+      internalID: 1327348441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6628ea72410bbc74daa48de422d8dec0
+      internalID: 1586376561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e022b3509f5b5b489c92daedba3c4e5
+      internalID: 1608023517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 204
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af48253d13759c4e868a333ad1d7372
+      internalID: -763302540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b5b811aa1133343896a0fd990f8be7
+      internalID: 948231864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc873156eb0aa364e804822ad32a66c3
+      internalID: -1328069220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b18044287040246a48c9c5740c6696
+      internalID: -312124634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f620f7c56b96b44fa609dcc456f79b9
+      internalID: -1700230264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3efeff3cf3baac47b98e3c6d535b493
+      internalID: 1700841734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3092db285db4ad848b4ed398a3b0b145
+      internalID: 1476091376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c475e460d1f347409b780f49591b698
+      internalID: -485986448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29393b9d4ecc53446bcb398a6350533b
+      internalID: -758257994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_52
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4e14bf07ee56b4683b49ea9c896dbc
+      internalID: -1851824728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_53
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840f0e1a3210b0544b661e8f733bac57
+      internalID: -1015158456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 172
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9929497a8f934404eab6bf540bea384b
+      internalID: -910490245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92f6603e4c3dfb4c9de8b4017fb5da0
+      internalID: -1412771012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca530e1ebd4cce34b9303915b05474ee
+      internalID: 1370606507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5f35c023972fd4c9aa64c36c698aa2
+      internalID: 15668548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43c97b396ee9fe4c844263efed1f80f
+      internalID: 1077470972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 329c4d9a1e975544eafefb6a39ab4762
+      internalID: 1047488339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22335447524480346a0cd6545a97c443
+      internalID: -1030287724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a387ab3b6eaf9a4ebaf52e4f9ba7e5a
+      internalID: -1368418694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_62
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79fc7588981160048954754945df4c20
+      internalID: 2054449262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaeb85f680792143b120191c0db445f
+      internalID: 645475308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_64
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8234cb3208829654c86d20bd1e45f4b4
+      internalID: 1279668469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_65
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f85e402d1c4b848b3c6e8f81a5f63c
+      internalID: 129532417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_66
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 140
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db4bac5cb5f53149847fc467c2b45f3
+      internalID: -1611914809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f833e4a4cd13f1c479df297a19502f1b
+      internalID: -538858203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d43604772f9e4439f2ce62591329e2
+      internalID: -1492318101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fb155b4efece14e9071eb7ccd021c1
+      internalID: -161655817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae2e0a206c88de448d4295cf2871abb
+      internalID: -1491596635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd42eadddac727479390e8671eff3c0
+      internalID: 1759153418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_72
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5773dba4e48043347942baecde6a3cc2
+      internalID: -2043910599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707c0cc16ce86b94da88fbbdc9e463dd
+      internalID: 1845393368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2679bb93bd1b588418a9de15264fb902
+      internalID: -1071960354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a76254a72f28d46b0ff2b78f3a0b6e
+      internalID: 1447056588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_76
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2360f965948080c4f9fcf0b85e42b849
+      internalID: 605111933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_77
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf45fbbbb5cb874498b6fe94120c85f
+      internalID: -2118443199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_78
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31906a39e0c64bc41a6b8a93be1aaf6b
+      internalID: 1201967327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_79
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 108
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd95a1a5793fd24aa1917e0e57c9345
+      internalID: 1687314975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0a076a4b1d47344eafc90351ecbe7f7
+      internalID: 2082346307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_81
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d322acd2b63bf0c43952a228e8eeab8b
+      internalID: -1668376309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462745af83c0cc54db5de6c19b4fef6e
+      internalID: 1201000628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_83
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e87003857c4b14aa52c474ab142566
+      internalID: 1867051797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc09ef4e95ac6942815b84f102034e1
+      internalID: 216143166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 12
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761d04a83f2c98f43b81e11aaeeb9247
+      internalID: -1801343947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 12
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc0560f2a7d42942bf5625fe920348d
+      internalID: -127245940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: teliset - gruta 1_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 12
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8d585c20c0f0e4bb84a324791967e2
+      internalID: 1323752136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      teliset - gruta 1_37: 1883184776
+      teliset - gruta 1_2: 1176589156
+      teliset - gruta 1_7: -1058051851
+      teliset - gruta 1_25: 839245076
+      teliset - gruta 1_78: 1201967327
+      teliset - gruta 1_14: 1757471045
+      teliset - gruta 1_20: -1510907001
+      teliset - gruta 1_77: -2118443199
+      teliset - gruta 1_22: -847737799
+      teliset - gruta 1_65: 129532417
+      teliset - gruta 1_49: 1476091376
+      teliset - gruta 1_86: -127245940
+      teliset - gruta 1_50: -485986448
+      teliset - gruta 1_26: 1156059316
+      teliset - gruta 1_1: -997416133
+      teliset - gruta 1_60: -1030287724
+      teliset - gruta 1_13: -64010244
+      teliset - gruta 1_64: 1279668469
+      teliset - gruta 1_68: -1492318101
+      teliset - gruta 1_6: 2080218110
+      teliset - gruta 1_42: 1608023517
+      teliset - gruta 1_52: -1851824728
+      teliset - gruta 1_70: -1491596635
+      teliset - gruta 1_76: 605111933
+      teliset - gruta 1_61: -1368418694
+      teliset - gruta 1_54: -910490245
+      teliset - gruta 1_8: 1779060237
+      teliset - gruta 1_66: -1611914809
+      teliset - gruta 1_11: -855579485
+      teliset - gruta 1_75: 1447056588
+      teliset - gruta 1_48: 1700841734
+      teliset - gruta 1_40: 1327348441
+      teliset - gruta 1_81: -1668376309
+      teliset - gruta 1_18: -490192823
+      teliset - gruta 1_32: 582675986
+      teliset - gruta 1_17: -991350224
+      teliset - gruta 1_72: -2043910599
+      teliset - gruta 1_9: 1245350193
+      teliset - gruta 1_5: -1670886050
+      teliset - gruta 1_58: 1077470972
+      teliset - gruta 1_74: -1071960354
+      teliset - gruta 1_28: 585352172
+      teliset - gruta 1_47: -1700230264
+      teliset - gruta 1_59: 1047488339
+      teliset - gruta 1_87: 1323752136
+      teliset - gruta 1_79: 1687314975
+      teliset - gruta 1_41: 1586376561
+      teliset - gruta 1_71: 1759153418
+      teliset - gruta 1_34: 576937879
+      teliset - gruta 1_35: 289191529
+      teliset - gruta 1_45: -1328069220
+      teliset - gruta 1_46: -312124634
+      teliset - gruta 1_10: -1365838767
+      teliset - gruta 1_21: 865361071
+      teliset - gruta 1_73: 1845393368
+      teliset - gruta 1_31: 1415214752
+      teliset - gruta 1_85: -1801343947
+      teliset - gruta 1_55: -1412771012
+      teliset - gruta 1_84: 216143166
+      teliset - gruta 1_56: 1370606507
+      teliset - gruta 1_29: -704932958
+      teliset - gruta 1_83: 1867051797
+      teliset - gruta 1_80: 2082346307
+      teliset - gruta 1_23: -1008119637
+      teliset - gruta 1_27: 1263599429
+      teliset - gruta 1_36: -225017728
+      teliset - gruta 1_82: 1201000628
+      teliset - gruta 1_43: -763302540
+      teliset - gruta 1_3: -770729442
+      teliset - gruta 1_62: 2054449262
+      teliset - gruta 1_19: 2044884576
+      teliset - gruta 1_38: -677005790
+      teliset - gruta 1_0: -1358122191
+      teliset - gruta 1_44: 948231864
+      teliset - gruta 1_63: 645475308
+      teliset - gruta 1_16: -1721001756
+      teliset - gruta 1_57: 15668548
+      teliset - gruta 1_12: 1496028168
+      teliset - gruta 1_39: -1171443465
+      teliset - gruta 1_30: -1505955039
+      teliset - gruta 1_69: -161655817
+      teliset - gruta 1_4: 19999553
+      teliset - gruta 1_15: 1840573945
+      teliset - gruta 1_24: -1101606529
+      teliset - gruta 1_53: -1015158456
+      teliset - gruta 1_67: -538858203
+      teliset - gruta 1_51: -758257994
+      teliset - gruta 1_33: -178247753
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
