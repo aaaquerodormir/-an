@@ -13,6 +13,8 @@ TagManager:
   - Spike
   - LimiteEsquerda
   - LimiteDireita
+  - Fade
+  - TiroPolvo
   layers:
   - Default
   - TransparentFX

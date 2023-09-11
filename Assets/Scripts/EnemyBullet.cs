@@ -5,16 +5,17 @@ using UnityEngine.SceneManagement;
 
 public class EnemyBullet : MonoBehaviour
 {
+
     private GameObject player;
     private Rigidbody2D rb;
     public float force;
     private float timer;
+    public FadeComponent fade;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player");
-
         Vector3 direction = player.transform.position - transform.position;
         rb.velocity = new Vector2(direction.x, direction.y).normalized * force;
 
@@ -29,6 +30,7 @@ public class EnemyBullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
     }
 
     void OnTriggerEnter2D(Collider2D other)

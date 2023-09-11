@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 6614408612032381558}
   - component: {fileID: 3179968041921614214}
   - component: {fileID: 3623473623843085671}
+  - component: {fileID: -1709057968724395040}
   m_Layer: 0
   m_Name: Tiro - Copy
-  m_TagString: Untagged
+  m_TagString: TiroPolvo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,6 +122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: 10
+  fade: {fileID: 0}
 --- !u!61 &3623473623843085671
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -147,3 +149,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.566292, y: 0.5619981}
   m_EdgeRadius: 0
+--- !u!114 &-1709057968724395040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173563934793056555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45169de84d31ce940895a3c1834920b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeObj: {fileID: 0}
+  timeInk: 2
