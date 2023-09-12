@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d7dea4288180e014d8b97253866dffd7
+guid: c4056102e3c38fa42a7c0db9d024fc97
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 700
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Splash-Sheet_0
+      name: parada_-_nadando_-_final-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 700
-        height: 700
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcb24dd9060e02941bf5f0705906919f
-      internalID: -1247121109
+      spriteID: c401759c41fc5534888a77f0fa951377
+      internalID: 481694095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_1
+      name: parada_-_nadando_-_final-Sheet_1
       rect:
         serializedVersion: 2
-        x: 700
+        x: 64
         y: 0
-        width: 700
-        height: 700
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 879f4331328131144a72621c2e457ed7
-      internalID: 1724589181
+      spriteID: 053a4ce15b127b540ba65488df15ba4a
+      internalID: 1388324192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_2
+      name: parada_-_nadando_-_final-Sheet_2
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 128
         y: 0
-        width: 700
-        height: 700
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22a29919bc9c9714b9e2295a0b582b4f
-      internalID: -739051298
+      spriteID: 3188128aad7f5bb468e18c97444d0c88
+      internalID: -2120401593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_3
+      name: parada_-_nadando_-_final-Sheet_3
       rect:
         serializedVersion: 2
-        x: 2100
+        x: 192
         y: 0
-        width: 700
-        height: 700
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 346cf8431f74f554f9b9eaff346de0cd
-      internalID: -558054066
+      spriteID: 691b3e90bef95314fb2ba3ef17c9bef3
+      internalID: -1620112377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_4
+      name: parada_-_nadando_-_final-Sheet_4
       rect:
         serializedVersion: 2
-        x: 2800
+        x: 256
         y: 0
-        width: 700
-        height: 700
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +227,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4143944a8adf8554d8d91e470d51f70a
-      internalID: -315326163
+      spriteID: 462caca0a0310584a9dbf7b0729d19b0
+      internalID: 975356235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_5
+      name: parada_-_nadando_-_final-Sheet_5
       rect:
         serializedVersion: 2
-        x: 3500
+        x: 320
         y: 0
-        width: 700
-        height: 700
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,92 +248,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 948e3e02b5c53bd4f9841d6b63e30431
-      internalID: -1820554557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 4200
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e184f0b61ec2924fa3b9a679027d1e8
-      internalID: 1985205059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 4900
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c54765769e963634790c0ac4cb87d2d2
-      internalID: 1532793378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 5600
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a2cd5bb9ca05e7469a7ebbce2eb62fa
-      internalID: 1354556852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 6300
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce8fbd9683bd4894cbfb898f0721838c
-      internalID: 1682678744
+      spriteID: d687943b062bde14b8bc5d164ea5cadb
+      internalID: -1849736926
       vertices: []
       indices: 
       edges: []
@@ -349,16 +265,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Splash-Sheet_6: 1985205059
-      Splash-Sheet_1: 1724589181
-      Splash-Sheet_8: 1354556852
-      Splash-Sheet_9: 1682678744
-      Splash-Sheet_0: -1247121109
-      Splash-Sheet_4: -315326163
-      Splash-Sheet_2: -739051298
-      Splash-Sheet_5: -1820554557
-      Splash-Sheet_7: 1532793378
-      Splash-Sheet_3: -558054066
+      parada_-_nadando_-_final-Sheet_0: 481694095
+      parada_-_nadando_-_final-Sheet_2: -2120401593
+      parada_-_nadando_-_final-Sheet_4: 975356235
+      parada_-_nadando_-_final-Sheet_1: 1388324192
+      parada_-_nadando_-_final-Sheet_3: -1620112377
+      parada_-_nadando_-_final-Sheet_5: -1849736926
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

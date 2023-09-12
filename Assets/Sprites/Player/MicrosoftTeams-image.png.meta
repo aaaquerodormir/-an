@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d7dea4288180e014d8b97253866dffd7
+guid: b825bcf17099b504ba7f5bb017e9ddd0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 700
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,211 +129,337 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Splash-Sheet_0
+      name: MicrosoftTeams-image_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcb24dd9060e02941bf5f0705906919f
-      internalID: -1247121109
+      spriteID: 5a9ef26f3fc95cb46ae57d6b0760be6d
+      internalID: 1980328108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_1
+      name: MicrosoftTeams-image_1
       rect:
         serializedVersion: 2
-        x: 700
+        x: 64
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 879f4331328131144a72621c2e457ed7
-      internalID: 1724589181
+      spriteID: cdd2e9caf1034514980de86546c28b93
+      internalID: 1860717154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_2
+      name: MicrosoftTeams-image_2
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 128
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22a29919bc9c9714b9e2295a0b582b4f
-      internalID: -739051298
+      spriteID: 1ed6cbe1c0fbf1b41b48e03025000678
+      internalID: 997814526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_3
+      name: MicrosoftTeams-image_3
       rect:
         serializedVersion: 2
-        x: 2100
+        x: 192
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 346cf8431f74f554f9b9eaff346de0cd
-      internalID: -558054066
+      spriteID: 7c3a70fca2b514a429071882e64501b0
+      internalID: -511010611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_4
+      name: MicrosoftTeams-image_4
       rect:
         serializedVersion: 2
-        x: 2800
+        x: 256
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4143944a8adf8554d8d91e470d51f70a
-      internalID: -315326163
+      spriteID: bf1aae04b2ce72d44a0b8dc05d6dba2d
+      internalID: 727621621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_5
+      name: MicrosoftTeams-image_5
       rect:
         serializedVersion: 2
-        x: 3500
+        x: 320
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 948e3e02b5c53bd4f9841d6b63e30431
-      internalID: -1820554557
+      spriteID: 2f4893249f24b8e4cb13431536cbcc53
+      internalID: -2003149364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_6
+      name: MicrosoftTeams-image_6
       rect:
         serializedVersion: 2
-        x: 4200
+        x: 384
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e184f0b61ec2924fa3b9a679027d1e8
-      internalID: 1985205059
+      spriteID: 7a5f12d09100bcf4a9ab9c4d960548d2
+      internalID: 1031556617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_7
+      name: MicrosoftTeams-image_7
       rect:
         serializedVersion: 2
-        x: 4900
+        x: 448
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c54765769e963634790c0ac4cb87d2d2
-      internalID: 1532793378
+      spriteID: e99bc6b5a521f924ebe28570b49a20bd
+      internalID: 175602337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_8
+      name: MicrosoftTeams-image_8
       rect:
         serializedVersion: 2
-        x: 5600
+        x: 512
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a2cd5bb9ca05e7469a7ebbce2eb62fa
-      internalID: 1354556852
+      spriteID: 0e9d951340b14b24c967b715f01c389f
+      internalID: 71061479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_9
+      name: MicrosoftTeams-image_9
       rect:
         serializedVersion: 2
-        x: 6300
+        x: 576
         y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce8fbd9683bd4894cbfb898f0721838c
-      internalID: 1682678744
+      spriteID: 4c2eac523aa5d78429eaa1ac52f766de
+      internalID: -1446318720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dbbd5221e9d88459697ef96e5c2308
+      internalID: 1562934980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29d4768b84b89749ba09af5e800e98e
+      internalID: -1945480909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 406b2e3b38e739649930acdb4f8f93c0
+      internalID: 417058270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394772dd7ff079c40b09521b7194de76
+      internalID: 1352671719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbf7190a2da2ad48bd782f3555d3b30
+      internalID: 902299780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MicrosoftTeams-image_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7ffc4895527bb409e2f4e7ace774e9
+      internalID: -611372205
       vertices: []
       indices: 
       edges: []
@@ -349,16 +475,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Splash-Sheet_6: 1985205059
-      Splash-Sheet_1: 1724589181
-      Splash-Sheet_8: 1354556852
-      Splash-Sheet_9: 1682678744
-      Splash-Sheet_0: -1247121109
-      Splash-Sheet_4: -315326163
-      Splash-Sheet_2: -739051298
-      Splash-Sheet_5: -1820554557
-      Splash-Sheet_7: 1532793378
-      Splash-Sheet_3: -558054066
+      MicrosoftTeams-image_12: 417058270
+      MicrosoftTeams-image_6: 1031556617
+      MicrosoftTeams-image_4: 727621621
+      MicrosoftTeams-image_2: 997814526
+      MicrosoftTeams-image_14: 902299780
+      MicrosoftTeams-image_13: 1352671719
+      MicrosoftTeams-image_15: -611372205
+      MicrosoftTeams-image_7: 175602337
+      MicrosoftTeams-image_1: 1860717154
+      MicrosoftTeams-image_10: 1562934980
+      MicrosoftTeams-image_8: 71061479
+      MicrosoftTeams-image_11: -1945480909
+      MicrosoftTeams-image_9: -1446318720
+      MicrosoftTeams-image_0: 1980328108
+      MicrosoftTeams-image_3: -511010611
+      MicrosoftTeams-image_5: -2003149364
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

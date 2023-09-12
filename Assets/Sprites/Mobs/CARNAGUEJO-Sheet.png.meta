@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d7dea4288180e014d8b97253866dffd7
+guid: 73d647b57c7bf95488d956b30b16f9ee
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 700
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Splash-Sheet_0
+      name: CARNAGUEJO-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 700
-        height: 700
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcb24dd9060e02941bf5f0705906919f
-      internalID: -1247121109
+      spriteID: 1953e343e4cd3e7429e4fca43a0c1009
+      internalID: 1134360066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_1
+      name: CARNAGUEJO-Sheet_1
       rect:
         serializedVersion: 2
-        x: 700
+        x: 32
         y: 0
-        width: 700
-        height: 700
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 879f4331328131144a72621c2e457ed7
-      internalID: 1724589181
+      spriteID: 194821844121ae94aaf0a196f45507bd
+      internalID: 347072348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_2
+      name: CARNAGUEJO-Sheet_2
       rect:
         serializedVersion: 2
-        x: 1400
+        x: 64
         y: 0
-        width: 700
-        height: 700
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22a29919bc9c9714b9e2295a0b582b4f
-      internalID: -739051298
+      spriteID: 17e6d33a81727b941a33d71a3c4334ff
+      internalID: 1269308675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Splash-Sheet_3
+      name: CARNAGUEJO-Sheet_3
       rect:
         serializedVersion: 2
-        x: 2100
+        x: 96
         y: 0
-        width: 700
-        height: 700
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,134 +206,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 346cf8431f74f554f9b9eaff346de0cd
-      internalID: -558054066
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 2800
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4143944a8adf8554d8d91e470d51f70a
-      internalID: -315326163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 3500
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 948e3e02b5c53bd4f9841d6b63e30431
-      internalID: -1820554557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 4200
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e184f0b61ec2924fa3b9a679027d1e8
-      internalID: 1985205059
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 4900
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c54765769e963634790c0ac4cb87d2d2
-      internalID: 1532793378
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 5600
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a2cd5bb9ca05e7469a7ebbce2eb62fa
-      internalID: 1354556852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Splash-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 6300
-        y: 0
-        width: 700
-        height: 700
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce8fbd9683bd4894cbfb898f0721838c
-      internalID: 1682678744
+      spriteID: 03686ce706cd1b543ae62744ea4cb0ad
+      internalID: 1993238777
       vertices: []
       indices: 
       edges: []
@@ -349,16 +223,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Splash-Sheet_6: 1985205059
-      Splash-Sheet_1: 1724589181
-      Splash-Sheet_8: 1354556852
-      Splash-Sheet_9: 1682678744
-      Splash-Sheet_0: -1247121109
-      Splash-Sheet_4: -315326163
-      Splash-Sheet_2: -739051298
-      Splash-Sheet_5: -1820554557
-      Splash-Sheet_7: 1532793378
-      Splash-Sheet_3: -558054066
+      CARNAGUEJO-Sheet_2: 1269308675
+      CARNAGUEJO-Sheet_1: 347072348
+      CARNAGUEJO-Sheet_3: 1993238777
+      CARNAGUEJO-Sheet_0: 1134360066
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

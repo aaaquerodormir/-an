@@ -162,4 +162,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeObj: {fileID: 0}
-  timeInk: 2
+  timeInk: 10
