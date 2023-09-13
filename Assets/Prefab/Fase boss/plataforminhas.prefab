@@ -31,6 +31,7 @@ Transform:
   - {fileID: 8625041360842058433}
   - {fileID: 8625041361996936113}
   - {fileID: 8625041362525921339}
+  - {fileID: 8625041361049233868}
   - {fileID: 7086412945270858225}
   - {fileID: 7086412945979840158}
   - {fileID: 7086412945863595752}
@@ -39,13 +40,12 @@ Transform:
   - {fileID: 8625041362139360276}
   - {fileID: 8625041360651520171}
   - {fileID: 8625041361295429514}
-  - {fileID: 6468706003644846838}
-  - {fileID: 6468706002662947277}
-  - {fileID: 6468706003814824584}
   - {fileID: 8625041361727891487}
-  - {fileID: 6468706002871690541}
-  - {fileID: 8625041361049233868}
   - {fileID: 8625041361451793312}
+  - {fileID: 6468706002662947277}
+  - {fileID: 6468706003644846838}
+  - {fileID: 6468706003814824584}
+  - {fileID: 6468706002871690541}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_LocalScale.x
@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -228,7 +228,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (9)
+      value: "Plataforma Est\xE1tica 5"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
@@ -314,7 +314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (1)
+      value: "Plataforma Invis\xEDvel "
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
@@ -336,7 +336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_LocalScale.x
@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279847, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279847, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -518,7 +518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279850, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_Name
-      value: Moving Floor (2)
+      value: Plataforma que Movimenta 2
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279851, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: speed
@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -616,7 +616,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (5)
+      value: "Plataforma Est\xE1tica 1"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
@@ -658,7 +658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279847, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279847, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -714,7 +714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279850, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_Name
-      value: Moving Floor (1)
+      value: Plataforma que Movimenta 1
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279851, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: targetY1
@@ -748,7 +748,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -804,7 +804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (4)
+      value: "Plataforma Est\xE1tica"
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970495, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Size.x
@@ -842,7 +842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -898,7 +898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (6)
+      value: "Plataforma Est\xE1tica 2"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
@@ -920,7 +920,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_LocalScale.x
@@ -1090,7 +1090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (3)
+      value: "Plataforma invis\xEDvel 1"
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970495, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Size.x
@@ -1128,7 +1128,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1184,7 +1184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (7)
+      value: "Plataforma Est\xE1tica 3"
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970495, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Size.x
@@ -1218,7 +1218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5699148538209169697, guid: 750a668066e6d9c49a414e104de66d59, type: 3}
       propertyPath: m_LocalScale.x
@@ -1384,7 +1384,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor
+      value: Plataforma Inicial
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
@@ -1414,7 +1414,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1470,7 +1470,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (10)
+      value: "Plataforma invis\xEDvel 2"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
@@ -1496,7 +1496,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1552,7 +1552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (11)
+      value: "Plataforma Est\xE1tica 6"
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970495, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Size.x
@@ -1590,7 +1590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970489, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_LocalScale.x
@@ -1646,7 +1646,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970494, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Name
-      value: Floor (8)
+      value: "Plataforma Est\xE1tica 4"
       objectReference: {fileID: 0}
     - target: {fileID: 7016689427754970495, guid: abf6312c78033d24684919a7eb7611b7, type: 3}
       propertyPath: m_Size.x
@@ -1700,7 +1700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279847, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279847, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_LocalScale.x
@@ -1756,7 +1756,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8396393844778279850, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}
       propertyPath: m_Name
-      value: Moving Floor
+      value: Plataforma que Movimenta
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 381c217291d5b164faa51e13d69c0c8c, type: 3}

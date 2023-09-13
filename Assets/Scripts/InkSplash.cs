@@ -19,7 +19,7 @@ public class InkSplash : MonoBehaviour
     {
         FadeObj.SetActive(true);
 
-        yield return new WaitForSeconds(timeInk);
+        yield return new WaitForSeconds(3f);
 
         FadeObj.SetActive(false);
 

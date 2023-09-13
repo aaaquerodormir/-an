@@ -9,7 +9,7 @@ public class EnemyShooting : MonoBehaviour
     public Transform bulletPos;
 
     private float timer;
-    private float shootInterval = 3f; // Intervalo de tempo entre os tiros.
+    private float shootInterval = 5f; // Intervalo de tempo entre os tiros.
     private GameObject player;
 
     void Start()
