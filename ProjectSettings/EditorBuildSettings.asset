@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 9576e2c8f1c907f409a4858262b7ccc0
   - enabled: 1
-    path: Assets/Scenes/Fase navio.unity
+    path: Assets/Scenes/level.unity
     guid: 51282f26692e2eb4bb6664793e474bf7
   - enabled: 1
     path: Assets/Scenes/scene-1.unity
@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Piratinha_grrr.unity
     guid: ead230639e17d6b4993285a37b579c32
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 5ce9c0d9ead397746a9daa92a211fd64
   m_configObjects: {}

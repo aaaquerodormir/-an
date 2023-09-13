@@ -337,9 +337,17 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1454992912}
+    - target: {fileID: 1890422619, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
+      propertyPath: m_Layer
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1216579830471146, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216579830471146, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4094648333593862, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_RootOrder
@@ -15203,24 +15211,24 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 2.3310308, y: 2.4452538}
-      - {x: 1.5879402, y: 3.2819686}
-      - {x: 0.02187252, y: 3.633277}
-      - {x: -1.7690144, y: 3.259108}
-      - {x: -2.6650958, y: 2.49306}
-      - {x: -3.235937, y: 1.7082164}
-      - {x: -3.381732, y: 0.8089268}
-      - {x: -3.5084343, y: -0.55157566}
-      - {x: -3.126727, y: -1.5820786}
-      - {x: -2.247148, y: -2.729938}
-      - {x: -1.5112989, y: -3.1723802}
-      - {x: -0.73798704, y: -3.6303055}
-      - {x: 0.34407902, y: -3.7497678}
-      - {x: 1.5096595, y: -3.4490986}
-      - {x: 2.5832224, y: -2.9457097}
-      - {x: 3.0456085, y: -2.3371701}
-      - {x: 3.5235767, y: -0.9632495}
-      - {x: 3.44735, y: 0.83080053}
+    - - {x: 0.9735043, y: 0.903209}
+      - {x: 0.65216947, y: 1.1863694}
+      - {x: 0.16685104, y: 1.3531594}
+      - {x: -0.21378946, y: 1.4007461}
+      - {x: -0.7540145, y: 1.1487131}
+      - {x: -1.0217195, y: 0.8119854}
+      - {x: -1.3147006, y: 0.12557471}
+      - {x: -1.3818941, y: -0.35589057}
+      - {x: -0.992692, y: -1.0820026}
+      - {x: -0.49829626, y: -1.1816137}
+      - {x: 0.42393422, y: -1.1818056}
+      - {x: 0.867887, y: -0.93340063}
+      - {x: 1.2837832, y: -0.40359867}
+      - {x: 1.3854511, y: 0.0011296272}
+      - {x: 1.1798766, y: 0.6701293}
+      - {x: 1.3981247, y: -0.017513037}
+      - {x: 1.2302794, y: 0.53925556}
+      - {x: 1.2067719, y: 0.6594622}
 --- !u!199 &1981705222
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -15301,7 +15309,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981705220}
   serializedVersion: 8
-  lengthInSec: 2
+  lengthInSec: 0.5
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -15376,7 +15384,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -15429,7 +15437,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 0.8
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -15545,7 +15553,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.7
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -16565,8 +16573,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.29128125, g: 0.9716981, b: 0.05958529, a: 1}
-        key1: {r: 0.025943398, g: 0.5, b: 0.10669491, a: 1}
+        key0: {r: 0.42733178, g: 0.9150943, b: 0.7632643, a: 1}
+        key1: {r: 0.015886446, g: 0.4811321, b: 0.42039576, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -20008,7 +20016,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981705220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.86, y: 1.15, z: -1}
+  m_LocalPosition: {x: -4.76, y: 1.03, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22687,6 +22695,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 679933415458479926, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 679933415704484065, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 679933415986953878, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}

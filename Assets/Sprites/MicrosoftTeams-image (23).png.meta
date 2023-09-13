@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3593848904bcd0247bf89a0c289e5ff9
+guid: 76f4146fa96177c469237571ee463b69
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,7 +106,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,7 +118,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: exclamacao-Sheet_0
+      name: MicrosoftTeams-image (23)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 80beba0598035344fbff91f837294cc1
-      internalID: -2107092647
+      spriteID: 17e5b7c8098bcdf42b094531e6e61f25
+      internalID: -1597749167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: exclamacao-Sheet_1
+      name: MicrosoftTeams-image (23)_1
       rect:
         serializedVersion: 2
         x: 32
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a16c5e24cd8766045b86dd53dfb50e30
-      internalID: -444111142
+      spriteID: 864ef8c3b7d3cdf45ac45efbda53664c
+      internalID: -617847129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: exclamacao-Sheet_2
+      name: MicrosoftTeams-image (23)_2
       rect:
         serializedVersion: 2
         x: 64
@@ -185,29 +185,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd75460c35c737c4d9b2b9ca1128e974
-      internalID: -1415723428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: exclamacao-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c64fe40574d97b4498749e52f14506c2
-      internalID: 1633384289
+      spriteID: f3d7ef0189c094b4692bf0249ca105b3
+      internalID: 693794988
       vertices: []
       indices: 
       edges: []
@@ -223,10 +202,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      exclamacao-Sheet_3: 1633384289
-      exclamacao-Sheet_2: -1415723428
-      exclamacao-Sheet_0: -2107092647
-      exclamacao-Sheet_1: -444111142
+      MicrosoftTeams-image (23)_1: -617847129
+      MicrosoftTeams-image (23)_0: -1597749167
+      MicrosoftTeams-image (23)_2: 693794988
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
