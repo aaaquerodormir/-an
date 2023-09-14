@@ -11,12 +11,12 @@ public class bau : MonoBehaviour
         {
             if(other.gameObject.GetComponent<Control>().temChave == true && other.gameObject.tag == "Player")
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-                Debug.Log("Abrir Baú");
+                MyLoading.LoadLevel("level2");
+                Debug.Log("Abrir Bau");
             }
             else
             {
-                Debug.Log("Você precisa coletar a chave!");
+                Debug.Log("Voce precisa coletar a chave!");
             }
         }
     }

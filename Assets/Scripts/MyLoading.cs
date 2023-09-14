@@ -8,10 +8,14 @@ public class MyLoading : MonoBehaviour
 {
     AsyncOperation operation;
     static string level;
+    static string level2;
+    static string level3;
     public Slider slider;
     void Start()
     {
         operation = SceneManager.LoadSceneAsync(level);
+        operation = SceneManager.LoadSceneAsync(level2);
+        operation = SceneManager.LoadSceneAsync(level3);
         operation.allowSceneActivation = false;
         Invoke("AllowScene", 1);
     }
@@ -27,10 +31,12 @@ public class MyLoading : MonoBehaviour
     public static void LoadLevel(string nextlevel)
     {
         level = nextlevel;
+        level2 = nextlevel;
+        level3 = nextlevel;
         SceneManager.LoadScene("Loading");
     }
     void Update()
     {
-        slider.value = Mathf.Lerp(slider.value, operation.progress, Time.deltaTime*4);
+        slider.value = Mathf.Lerp(slider.value, operation.progress, Time.deltaTime*8);
     }
 }

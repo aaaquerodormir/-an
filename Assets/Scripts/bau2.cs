@@ -11,7 +11,7 @@ public class bau2 : MonoBehaviour
         {
             if(other.gameObject.GetComponent<PlayerController>().temChave == true && other.gameObject.tag == "Player")
             {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                MyLoading.LoadLevel("level3");
                 Debug.Log("Abrir Ba�");
             }
             else

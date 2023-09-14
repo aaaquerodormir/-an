@@ -1,138 +1,69 @@
-﻿    using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Control : MonoBehaviour
 {
     public Animator anima; // Referência ao Animator do personagem.
-    float xmov; // Variável para guardar o movimento horizontal.
-    public Rigidbody2D rdb; // Referência ao Rigidbody2D do personagem.
-    bool jump; //doublejump; // Flags para controle de pulo e pulo duplo.
-    float jumptime;//, jumptimeside; // Controla a duração dos pulos.
+    private Rigidbody2D rdb; // Referência ao Rigidbody2D do personagem.
+    private float xmov; // Variável para guardar o movimento horizontal.
+    private float jumpState = 0f; // Variável para controlar o estado do pulo.
     public bool temChave;
-    
 
-    [SerializeField] private int speed;
-    [SerializeField] private float jumpSpeed;
-    void Start()
+    [SerializeField] private int speed = 5; // Velocidade do personagem.
+    [SerializeField] private float jumpForce = 10f; // Força do pulo.
+
+    // Crie uma variável para representar a camada das plataformas.
+    [SerializeField] private LayerMask platformLayer;
+
+    private void Start()
     {
         temChave = false;
-        
-        // Método para inicializações. Não está sendo utilizado neste código.
+        rdb = GetComponent<Rigidbody2D>(); // Obter a referência ao Rigidbody2D no início.
     }
 
-    void Update()
+    private void Update()
     {
-        //Cursor.visible = false;  // Mouse aparecer na tela ou não
-
         // Captura o movimento horizontal do jogador.
         xmov = Input.GetAxis("Horizontal");
 
-        // Verifica se o botão de pulo foi pressionado e controla o pulo duplo.
-        //if (Input.GetButtonDown("Jump"))
-        //{
-        //    if (jumptime < 0.1f)
-        //    {
-        //        doublejump = false;
-        //    }
-        //}
-
-        // Define o estado de pulo com base na entrada do usuário.
-        if (Input.GetButton("Jump"))
+        // Verifica se o botão de pulo foi pressionado.
+        if (Input.GetButtonDown("Jump"))
         {
-            jump = true;
-
+            // Verifica se o jogador está em contato com a camada das plataformas ou no ar antes de permitir o pulo.
+            if (IsGrounded() || Mathf.Abs(rdb.velocity.y) < 0.01f)
+            {
+                rdb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+                jumpState = 1f; // Inicia o pulo.
+            }
         }
-        else
-        {
-            jump = false;
-            //doublejump = false;
-            jumptime = 0;
-            //jumptimeside = 0;
-        }
-
-
-    
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         Reverser(); // Chama a função que inverte o personagem.
-        anima.SetFloat("Velocity", Mathf.Abs(xmov)); // Define a velocidade no Animator.
+        anima.SetFloat("Velocity", Mathf.Abs(rdb.velocity.x)); // Define a velocidade no Animator.
+        anima.SetFloat("JumpState", jumpState); // Define o estado do pulo no Animator.
 
         // Adiciona uma força para mover o personagem.
-        //rdb.AddForce(new Vector2(xmov * speed / (rdb.velocity.magnitude + 1), 0));
         rdb.velocity = new Vector2(xmov * speed, rdb.velocity.y);
-
-        RaycastHit2D hit;
-
-        // Faz um raycast para baixo para detectar o chão.
-        hit = Physics2D.Raycast(transform.position, Vector2.down);
-        if (hit)
-        {
-            anima.SetFloat("Height", hit.distance);
-            JumpRoutine(hit); // Chama a rotina de pulo.
-        }
-
-        RaycastHit2D hitright;
-
-        // Faz um raycast para a direita para detectar paredes.
-        hitright = Physics2D.Raycast(transform.position + Vector3.up * 0.5f, transform.right, 1);
-        if (hitright)
-        {
-            if (hitright.distance < 0.3f)
-            {
-                JumpRoutineSide(hitright); // Chama a rotina de pulo lateral.
-            }
-            Debug.DrawLine(hitright.point, transform.position + Vector3.up * 0.5f);
-        }
     }
 
-    // Rotina de pulo (parte física).
-    private void JumpRoutine(RaycastHit2D hit)
+    // Verifica se o jogador está em contato com a camada das plataformas usando raycast.
+    private bool IsGrounded()
     {
-        // Verifica a distância do chão e aplica uma força de pulo se necessário.
-        if (hit.distance < 0.1f)
-        {
-            jumptime = jumpSpeed;
-        }
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 0.1f, platformLayer);
 
-        if (jump)
-        {
-            jumptime = Mathf.Lerp(jumptime, 0, Time.fixedDeltaTime * 10);
-            rdb.AddForce(Vector2.up * jumptime, ForceMode2D.Impulse);
-        }
-    }
-
-    // Rotina de pulo lateral.
-    private void JumpRoutineSide(RaycastHit2D hitside)
-    {
-        if (hitside.distance < 0.3f)
-        {
-            //jumptimeside = 1;
-        }
-
-        //if (doublejump)
-        //{
-        //    PhisicalReverser();
-        //    jumptimeside = Mathf.Lerp(jumptimeside, 0, Time.fixedDeltaTime * 10);
-        //    rdb.AddForce((hitside.normal * 50 + Vector2.up * 80) * jumptimeside);
-        //}
+        return hit.collider != null;
     }
 
     // Função para inverter a direção do personagem (visual).
-    void Reverser()
+    private void Reverser()
     {
-        if (xmov > 0) transform.rotation = Quaternion.Euler(0, 0, 0);
-        if (xmov < 0) transform.rotation = Quaternion.Euler(0, 180, 0);
+        if (rdb.velocity.x > 0.1f) transform.rotation = Quaternion.Euler(0, 0, 0);
+        else if (rdb.velocity.x < -0.1f) transform.rotation = Quaternion.Euler(0, 180, 0);
     }
 
-    // Função para inverter a direção do personagem (física).
-    void PhisicalReverser()
-    {
-        if (rdb.velocity.x > 0.5f) transform.rotation = Quaternion.Euler(0, 0, 0);
-        if (rdb.velocity.x < 0.5f) transform.rotation = Quaternion.Euler(0, 180, 0);
-    }
 
-  
+
 }
