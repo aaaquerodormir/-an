@@ -33,4 +33,8 @@ public class PlayerHealth : MonoBehaviour
         // Certifique-se de que a saúde não ultrapasse o máximo
         health = Mathf.Min(health, maxHealth);
     }
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+    }
 }

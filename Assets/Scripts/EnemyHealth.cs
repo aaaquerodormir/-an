@@ -10,13 +10,7 @@ public class EnemyHealth : MonoBehaviour
     //private Image healthBar;
 
 
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
-
-    private void Update()
+     private void Update()
     {
         
     }

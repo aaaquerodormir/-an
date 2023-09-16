@@ -2897,6 +2897,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 679933415458479921, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1141563406}
     - target: {fileID: 679933415458479922, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -5653,6 +5657,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!20 &1141563406 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 6910903437619217077, guid: 5a388ba76b7f062469b24c4edca7ddf2, type: 3}
+  m_PrefabInstance: {fileID: 1862814635}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1143443891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7681,6 +7690,10 @@ PrefabInstance:
     - target: {fileID: 5094872186918865626, guid: 0ddbc6e7a3356774d907fb8c7d1379c2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5094872186918865627, guid: 0ddbc6e7a3356774d907fb8c7d1379c2, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5094872186918865630, guid: 0ddbc6e7a3356774d907fb8c7d1379c2, type: 3}
       propertyPath: healingAmount

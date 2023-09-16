@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -37,6 +37,10 @@ public class Control : MonoBehaviour
                 jumpState = 1f; // Inicia o pulo.
             }
         }
+        else
+        {
+            jumpState = 0f; // Define jumpState como 0 quando o botão de pulo não está pressionado.
+        }
     }
 
     private void FixedUpdate()
@@ -63,7 +67,6 @@ public class Control : MonoBehaviour
         if (rdb.velocity.x > 0.1f) transform.rotation = Quaternion.Euler(0, 0, 0);
         else if (rdb.velocity.x < -0.1f) transform.rotation = Quaternion.Euler(0, 180, 0);
     }
-
 
 
 }

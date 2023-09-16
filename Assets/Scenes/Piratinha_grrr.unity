@@ -339,7 +339,7 @@ PrefabInstance:
       objectReference: {fileID: 1454992912}
     - target: {fileID: 1890422619, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1216579830471146, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_Name
@@ -347,7 +347,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1216579830471146, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4094648333593862, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_RootOrder
@@ -15179,6 +15179,7 @@ GameObject:
   - component: {fileID: 1981705223}
   - component: {fileID: 1981705222}
   - component: {fileID: 1981705221}
+  - component: {fileID: 1981705225}
   m_Layer: 0
   m_Name: Veneno
   m_TagString: Untagged
@@ -20016,13 +20017,27 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981705220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.07, y: -1.75, z: -1}
+  m_LocalPosition: {x: -5.88, y: 0.35, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1981705225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981705220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ede80f6b591bae4abe7b3e1fe3f3709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  danoPorSegundo: 2
+  damageInterval: 1
 --- !u!1 &1985627530
 GameObject:
   m_ObjectHideFlags: 0
