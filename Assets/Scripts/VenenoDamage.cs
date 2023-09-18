@@ -9,6 +9,10 @@ public class VenenoDamage : MonoBehaviour
     public float damageInterval = 1f; // Intervalo de dano (1 segundo, por padrão)
     private float timer = 0f;
 
+    private void Start()
+    {
+        
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
         // Verifica se o objeto colidindo é o jogador
@@ -26,6 +30,11 @@ public class VenenoDamage : MonoBehaviour
         {
             playerHealth = null;
         }
+        //else
+        //{
+        //    Destroy(gameObject);
+        //}
+
     }
 
     private void Update()
@@ -42,6 +51,9 @@ public class VenenoDamage : MonoBehaviour
                 playerHealth.TakeDamage(danoPorSegundo * damageInterval);
                 timer = 0f; // Resetar o temporizador
             }
+          
         }
+
+   
     }
 }

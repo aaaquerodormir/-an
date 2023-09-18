@@ -9,8 +9,8 @@ public class EnemyController : MonoBehaviour
     public float venomInterval = 2f; // Intervalo entre cada lançamento de veneno
     private float timer = 0f;
     public float venomDuration = 0.5f; // Tempo que o veneno permanece ativo
-    private bool isVenomActive = true;
-    private ParticleSystem activeVenom; // Referência ao Particle System ativo
+    private bool isVenomActive = false;
+    public ParticleSystem activeVenom; // Referência ao Particle System ativo
 
     private void Start()
     {
@@ -35,7 +35,7 @@ public class EnemyController : MonoBehaviour
             if (activeVenom != null)
             {
                 // Pause o Particle System ativo
-                activeVenom.Pause();
+                //activeVenom.Pause();
 
                 // Desative o veneno por 5 segundos antes de reativá-lo
                 StartCoroutine(DeactivateAndReactivateVenom());
@@ -44,22 +44,35 @@ public class EnemyController : MonoBehaviour
             {
                 // Crie o Particle System se não existir
                 activeVenom = Instantiate(venomPrefab, venomSpawnPoint.position, Quaternion.identity);
-                activeVenom.Pause();
+                //activeVenom.Pause();
             }
         }
     }
 
     private IEnumerator DeactivateAndReactivateVenom()
     {
-        isVenomActive = false;
-
-        yield return new WaitForSeconds(5f); // Tempo de desativação do veneno
-
-        // Garanta que o objeto do Particle System ainda existe antes de tentar reativá-lo
-        if (activeVenom != null)
+        while (true)
         {
-            isVenomActive = true;
+            /*isVenomActive = false;
+
+            if (isVenomActive == false)
+                {
+                //Destroy(venomPrefab);
+            }*/
+            isVenomActive = false;
             activeVenom.Play();
+            yield return new WaitForSeconds(5f);
+            isVenomActive = true;// Tempo de desativação do veneno
+
+            //isVenomActive = true;
+
+            //// Garanta que o objeto do Particle System ainda existe antes de tentar reativá-lo
+            /*if (activeVenom != null)
+            {
+                isVenomActive = true;
+                activeVenom.Play();
+                print("teste");
+            }*/
         }
     }
 }

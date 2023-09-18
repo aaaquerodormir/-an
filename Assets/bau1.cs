@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class bau : MonoBehaviour
+public class bau1 : MonoBehaviour
 {
     public string level;
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            if(other.gameObject.GetComponent<Control>().temChave == true && other.gameObject.tag == "Player")
+            if (other.gameObject.GetComponent<Control>().temChave == true && other.gameObject.tag == "Player")
             {
                 MyLoading.LoadLevel(level);
                 Debug.Log("Abrir Bau");
@@ -21,14 +21,4 @@ public class bau : MonoBehaviour
             }
         }
     }
-
-
-
-    //private void OnCollisionEnter2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    //    }
-    //}
 }
