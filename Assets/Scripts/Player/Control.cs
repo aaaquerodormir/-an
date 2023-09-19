@@ -11,7 +11,7 @@ public class Control : MonoBehaviour
     public bool temChave;
 
     [SerializeField] private int speed = 5; // Velocidade do personagem.
-    [SerializeField] private float jumpForce = 10f; // Força do pulo.
+    [SerializeField] private float jumpForce = 8f; // Força do pulo.
 
     // Crie uma variável para representar a camada das plataformas.
     [SerializeField] private LayerMask platformLayer;
@@ -47,7 +47,7 @@ public class Control : MonoBehaviour
     {
         Reverser(); // Chama a função que inverte o personagem.
         anima.SetFloat("Velocity", Mathf.Abs(rdb.velocity.x)); // Define a velocidade no Animator.
-        anima.SetFloat("JumpState", jumpState); // Define o estado do pulo no Animator.
+        anima.SetFloat("Height", jumpState); // Define o estado do pulo no Animator.
 
         // Adiciona uma força para mover o personagem.
         rdb.velocity = new Vector2(xmov * speed, rdb.velocity.y);

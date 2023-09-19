@@ -7,7 +7,6 @@ public class EnemyController : MonoBehaviour
     public ParticleSystem venomPrefab; // Referência ao prefab do veneno
     private Transform venomSpawnPoint; // Ponto onde o veneno será criado
     public float venomInterval = 2f; // Intervalo entre cada lançamento de veneno
-    private float timer = 0f;
     public float venomDuration = 0.5f; // Tempo que o veneno permanece ativo
     private bool isVenomActive = false;
     public ParticleSystem activeVenom; // Referência ao Particle System ativo
@@ -15,22 +14,17 @@ public class EnemyController : MonoBehaviour
     private void Start()
     {
         venomSpawnPoint = transform.Find("VenomSpawnPoint"); // Encontre o ponto onde o veneno será criado
+        LaunchVenom();
     }
 
     private void Update()
     {
-        timer += Time.deltaTime;
-
-        if (timer >= venomInterval)
-        {
-            LaunchVenom();
-            timer = 0f; // Resetar o temporizador
-        }
+        
     }
 
     private void LaunchVenom()
     {
-        if (isVenomActive)
+        if (isVenomActive == true)
         {
             if (activeVenom != null)
             {
@@ -53,26 +47,21 @@ public class EnemyController : MonoBehaviour
     {
         while (true)
         {
-            /*isVenomActive = false;
-
-            if (isVenomActive == false)
-                {
-                //Destroy(venomPrefab);
-            }*/
-            isVenomActive = false;
+            isVenomActive = true;// Tempo de desativação do veneno
+            
             activeVenom.Play();
             yield return new WaitForSeconds(5f);
-            isVenomActive = true;// Tempo de desativação do veneno
+            isVenomActive = false;
+            yield return new WaitForSeconds(4f);
 
-            //isVenomActive = true;
 
             //// Garanta que o objeto do Particle System ainda existe antes de tentar reativá-lo
-            /*if (activeVenom != null)
+            if (activeVenom != null)
             {
                 isVenomActive = true;
                 activeVenom.Play();
                 print("teste");
-            }*/
+            }
         }
     }
 }
