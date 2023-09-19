@@ -19,41 +19,26 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
-        
+
     }
 
     private void LaunchVenom()
     {
-        if (isVenomActive == true)
+        if (activeVenom == null)
         {
-            if (activeVenom != null)
-            {
-                // Pause o Particle System ativo
-                //activeVenom.Pause();
+            activeVenom = Instantiate(venomPrefab, venomSpawnPoint.position, Quaternion.identity).GetComponent<ParticleSystem>();
+            // Pause o Particle System ativo
+            //activeVenom.Pause();
 
-                // Desative o veneno por 5 segundos antes de reativá-lo
-                StartCoroutine(DeactivateAndReactivateVenom());
-            }
-            else
-            {
-                // Crie o Particle System se não existir
-                activeVenom = Instantiate(venomPrefab, venomSpawnPoint.position, Quaternion.identity);
-                //activeVenom.Pause();
-            }
+            // Desative o veneno por 5 segundos antes de reativá-lo
         }
+        StartCoroutine(DeactivateAndReactivateVenom());
     }
 
     private IEnumerator DeactivateAndReactivateVenom()
     {
         while (true)
         {
-            isVenomActive = true;// Tempo de desativação do veneno
-            
-            activeVenom.Play();
-            yield return new WaitForSeconds(5f);
-            isVenomActive = false;
-            yield return new WaitForSeconds(4f);
-
 
             //// Garanta que o objeto do Particle System ainda existe antes de tentar reativá-lo
             if (activeVenom != null)
@@ -62,6 +47,11 @@ public class EnemyController : MonoBehaviour
                 activeVenom.Play();
                 print("teste");
             }
+            yield return new WaitForSeconds(activeVenom.main.duration);
+            isVenomActive = false;
+            float intervalo = 5;
+            yield return new WaitForSeconds(intervalo);
+
         }
     }
 }

@@ -11,7 +11,7 @@ public class BossAtirando : MonoBehaviour
     private float timer; //controlar o tempo dos tiros
     private float shootInterval = 5f; // tempo p/ atirar
     private int normalShotsFired = 0; // tiros normais dados
-    private int shotsUntilStun = 6; // tiros para stun
+    private int shotsUntilStun = 2; // tiros para stun
     private GameObject player;
     void Start()
     {

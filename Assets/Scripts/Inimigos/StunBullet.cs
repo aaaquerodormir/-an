@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EnemyBullet : MonoBehaviour
+public class StunBullet : MonoBehaviour
 {
 
     private GameObject player;
@@ -11,6 +11,9 @@ public class EnemyBullet : MonoBehaviour
     public float force;
     private float timer;
     public FadeComponent fade;
+    public float stunDuration = 3f; // DuraÁ„o do atordoamento.
+    public float stunTimer = 0f;
+
 
     void Start()
     {
@@ -26,35 +29,27 @@ public class EnemyBullet : MonoBehaviour
     {
         timer += Time.deltaTime;
 
-        if(timer > 6)
+        if (timer > 6)
         {
             Destroy(gameObject);
         }
-        
-    }
 
+
+
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
             PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
+            Control playerControl = other.gameObject.GetComponent<Control>();
+            if (playerHealth != null && playerControl != null)
             {
-                playerHealth.TakeDamage(4); // Reduz a sa√∫de do jogador em 2 quando atingido pela bala
-            
-                if (playerHealth.health <= 0)
-            {
-                PerformPlayerRespawn(other.gameObject); // Chama a fun√ß√£o de respawn se o jogador morrer.
-            }
-
-            Destroy(gameObject); // Destroi a bala.
+                playerHealth.TakeDamage(8);
+                playerControl.Stun(stunDuration);
+                Destroy(gameObject); // Destroi a bala.
             }
         }
     }
-
-    void PerformPlayerRespawn(GameObject player)
-    {
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
-    }
 }
+
