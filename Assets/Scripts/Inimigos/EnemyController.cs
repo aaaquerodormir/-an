@@ -8,13 +8,15 @@ public class EnemyController : MonoBehaviour
     private Transform venomSpawnPoint; // Ponto onde o veneno será criado
     public float venomInterval = 2f; // Intervalo entre cada lançamento de veneno
     public float venomDuration = 0.5f; // Tempo que o veneno permanece ativo
-    private bool isVenomActive = false;
     public ParticleSystem activeVenom; // Referência ao Particle System ativo
+    private VenenoDamage venenoDamage;
 
     private void Start()
     {
         venomSpawnPoint = transform.Find("VenomSpawnPoint"); // Encontre o ponto onde o veneno será criado
+        venenoDamage = venomSpawnPoint.GetComponentInChildren<VenenoDamage>();
         LaunchVenom();
+
     }
 
     private void Update()
@@ -43,12 +45,12 @@ public class EnemyController : MonoBehaviour
             //// Garanta que o objeto do Particle System ainda existe antes de tentar reativá-lo
             if (activeVenom != null)
             {
-                isVenomActive = true;
+                venenoDamage.isVenomActive = true;
                 activeVenom.Play();
                 print("teste");
             }
             yield return new WaitForSeconds(activeVenom.main.duration);
-            isVenomActive = false;
+            venenoDamage.isVenomActive = false;
             float intervalo = 5;
             yield return new WaitForSeconds(intervalo);
 

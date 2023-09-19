@@ -8,6 +8,7 @@ public class VenenoDamage : MonoBehaviour
     private PlayerHealth playerHealth;
     public float damageInterval = 1f; // Intervalo de dano (1 segundo, por padrão)
     private float timer = 0f;
+    public bool isVenomActive = false;
 
     private void Start()
     {
@@ -28,19 +29,17 @@ public class VenenoDamage : MonoBehaviour
         // Se o jogador sair da área do veneno, defina a referência do script de vida como nula
         if (other.CompareTag("Player"))
         {
+            timer = 0;
             playerHealth = null;
         }
-        //else
-        //{
-        //    Destroy(gameObject);
-        //}
+        
 
     }
 
     private void Update()
     {
         // Verifica se o jogador está dentro da área do veneno e se o script de vida do jogador está definido
-        if (playerHealth != null)
+        if (playerHealth != null && isVenomActive)
         {
             timer += Time.deltaTime;
 

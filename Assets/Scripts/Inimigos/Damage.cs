@@ -11,24 +11,24 @@ public class Damage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            StartCoroutine(Blink());
+            //StartCoroutine(Blink());
             PlayerHealth playerHealth = other.gameObject.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
-                playerHealth.health -= damage;
+                playerHealth.TakeDamage(damage);
                 if (playerHealth.health <= 0)
                 {
                     Invoke("RestartScene", restartDelay); // Chama a função de reiniciar após o atraso
@@ -42,16 +42,16 @@ public class Damage : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    IEnumerator Blink()
-    {
-        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-        for (int i = 0; i < 5; i++)
-        {
-            renderer.color = new Color(1, 0, 0);
+    //IEnumerator Blink()
+    //{
+    //    SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+    //    for (int i = 0; i < 5; i++)
+    //    {
+    //        renderer.color = new Color(1, 0, 0);
 
-            yield return new WaitForSeconds(0.1f);
+    //        yield return new WaitForSeconds(0.1f);
 
-            renderer.color = new Color(1, 1, 1);
-        }
-    }
+    //        renderer.color = new Color(1, 1, 1);
+    //    }
+    //}
 }

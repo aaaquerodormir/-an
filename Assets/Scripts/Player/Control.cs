@@ -11,6 +11,7 @@ public class Control : MonoBehaviour
     private float jumpState = 0f; // Variável para controlar o estado do pulo.
     public bool temChave;
     private bool isStunned = false;
+    private GameObject StunVisual;
 
     [SerializeField] private int speed = 5; // Velocidade do personagem.
     [SerializeField] private float jumpForce = 8f; // Força do pulo.
@@ -21,7 +22,7 @@ public class Control : MonoBehaviour
     private void Start()
     {
         temChave = false;
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        StunVisual = transform.Find("Stun").gameObject;
         rdb = GetComponent<Rigidbody2D>(); // Obter a referência ao Rigidbody2D no início.
     }
 
@@ -51,7 +52,7 @@ public class Control : MonoBehaviour
     }
     public void Stun(float StunDuration)
     {
-        spriteRenderer.color = Color.yellow;
+        StunVisual.SetActive(true);
         isStunned = true;
         xmov = 0;
         StartCoroutine(LeaveStun(StunDuration));
@@ -59,7 +60,7 @@ public class Control : MonoBehaviour
     private IEnumerator LeaveStun(float StunDuration)
     {
         yield return new WaitForSeconds(StunDuration);
-        spriteRenderer.color = Color.white;
+        StunVisual.SetActive(false);
         isStunned = false;
     }
     private void FixedUpdate()
