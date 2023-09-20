@@ -3543,11 +3543,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 520814658678002177, guid: adcdb97e53de455448178cbd79e15adb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 33.8
+      value: -7.51
       objectReference: {fileID: 0}
     - target: {fileID: 520814658678002177, guid: adcdb97e53de455448178cbd79e15adb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.74
+      value: -1.47
       objectReference: {fileID: 0}
     - target: {fileID: 520814658678002177, guid: adcdb97e53de455448178cbd79e15adb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6275,7 +6275,7 @@ GameObject:
   - component: {fileID: 1090793282}
   - component: {fileID: 1090793285}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6376,7 +6376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d918e5dcf68e9e74ea2d9769d669b002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lives: 50
+  lives: 25
 --- !u!1 &1095873145
 GameObject:
   m_ObjectHideFlags: 0
@@ -7876,6 +7876,14 @@ PrefabInstance:
     - target: {fileID: 5645782407124378895, guid: 35d980088eab6384d9e861bb66964016, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645782407124378994, guid: 35d980088eab6384d9e861bb66964016, type: 3}
+      propertyPath: m_Size.x
+      value: 0.7371587
+      objectReference: {fileID: 0}
+    - target: {fileID: 5645782407124378994, guid: 35d980088eab6384d9e861bb66964016, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.010985643
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35d980088eab6384d9e861bb66964016, type: 3}
@@ -11576,6 +11584,14 @@ PrefabInstance:
       propertyPath: m_Points.m_Paths.Array.data[0].Array.data[18].y
       value: -0.13462307
       objectReference: {fileID: 0}
+    - target: {fileID: 3408926073482648799, guid: 93703cb1c5b584d4ea8813e08ee9781d, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4230379
+      objectReference: {fileID: 0}
+    - target: {fileID: 3408926073482648799, guid: 93703cb1c5b584d4ea8813e08ee9781d, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.060878992
+      objectReference: {fileID: 0}
     - target: {fileID: 5915320579203596320, guid: 93703cb1c5b584d4ea8813e08ee9781d, type: 3}
       propertyPath: m_IsTrigger
       value: 1
@@ -14928,10 +14944,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sapinho
       objectReference: {fileID: 0}
-    - target: {fileID: 5915320579203596320, guid: 93703cb1c5b584d4ea8813e08ee9781d, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 93703cb1c5b584d4ea8813e08ee9781d, type: 3}
 --- !u!1001 &8166777128677847939
@@ -14947,11 +14959,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8166777127197919328, guid: b6f5a9a4cd941d44098ea6e151179599, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.322717
+      value: -8.11
       objectReference: {fileID: 0}
     - target: {fileID: 8166777127197919328, guid: b6f5a9a4cd941d44098ea6e151179599, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.6725864
+      value: 3.94
       objectReference: {fileID: 0}
     - target: {fileID: 8166777127197919328, guid: b6f5a9a4cd941d44098ea6e151179599, type: 3}
       propertyPath: m_LocalPosition.z

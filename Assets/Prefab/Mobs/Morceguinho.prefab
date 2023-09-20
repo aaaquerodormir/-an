@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8166777127197919334}
   - component: {fileID: 8166777127197919335}
   - component: {fileID: 8166777127197919332}
+  - component: {fileID: 8307707320168845037}
   m_Layer: 0
   m_Name: Morceguinho
   m_TagString: Untagged
@@ -136,7 +137,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  speed: 1.5
+  speed: 1.25
 --- !u!114 &8166777127197919335
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -177,3 +178,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.38511837, y: 0.3225879}
   m_EdgeRadius: 0
+--- !u!114 &8307707320168845037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8166777127197919331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d918e5dcf68e9e74ea2d9769d669b002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 3

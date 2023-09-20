@@ -45,8 +45,8 @@ GameObject:
   - component: {fileID: 3043849664106155533}
   - component: {fileID: 3043849664106155536}
   - component: {fileID: 3043849664106155537}
-  - component: {fileID: 3043849664106155534}
   - component: {fileID: 3043849664106155535}
+  - component: {fileID: 3408926073482648799}
   m_Layer: 0
   m_Name: Sapinho
   m_TagString: Damage
@@ -61,7 +61,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3043849664106155531}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 22.537283, y: 11.562587, z: -1.5802724}
   m_LocalScale: {x: 1.6831, y: 1.6831, z: 1.6831}
   m_ConstrainProportionsScale: 0
@@ -177,45 +177,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isFacingRight: 0
   anim: {fileID: 3043849664106155533}
---- !u!60 &3043849664106155534
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3043849664106155531}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: db27835c4ed138945b10c01db7034697, type: 2}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.0990966, y: 0.012342751}
-      - {x: -0.04646472, y: 0.033722937}
-      - {x: -0.16278365, y: -0.105135575}
-      - {x: -0.16337293, y: -0.218011}
-      - {x: -0.16217948, y: -0.28180623}
-      - {x: -0.1051574, y: -0.36901718}
-      - {x: 0.0061852597, y: -0.39984456}
-      - {x: 0.065836504, y: -0.3784814}
-      - {x: 0.12985525, y: -0.37079585}
-      - {x: 0.1677615, y: -0.38939416}
-      - {x: 0.24735758, y: -0.38077492}
-      - {x: 0.24650368, y: -0.2983271}
-      - {x: 0.24671838, y: -0.1758984}
-      - {x: 0.20888188, y: -0.1373315}
 --- !u!114 &3043849664106155535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,6 +193,32 @@ MonoBehaviour:
   venomInterval: 2
   venomDuration: 0.5
   activeVenom: {fileID: 5915320579203596322}
+--- !u!61 &3408926073482648799
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3043849664106155531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: db27835c4ed138945b10c01db7034697, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.06273727, y: -0.19686511}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.45050833, y: 0.41589397}
+  m_EdgeRadius: 0
 --- !u!1001 &2803713330220249095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -533,7 +520,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8430662441053138983, guid: 8d2444b1378c37449bb591a76e0ff5c1, type: 3}
       propertyPath: m_IsTrigger
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8430662441053138983, guid: 8d2444b1378c37449bb591a76e0ff5c1, type: 3}
       propertyPath: m_Points.m_Paths.Array.data[0].Array.size
