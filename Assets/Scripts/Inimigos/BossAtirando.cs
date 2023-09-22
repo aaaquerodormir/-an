@@ -9,9 +9,9 @@ public class BossAtirando : MonoBehaviour
     public Transform bulletPos; // posição da bala
 
     private float timer; //controlar o tempo dos tiros
-    private float shootInterval = 5f; // tempo p/ atirar
+    private float shootInterval = 4f; // tempo p/ atirar
     private int normalShotsFired = 0; // tiros normais dados
-    private int shotsUntilStun = 2; // tiros para stun
+    private int shotsUntilStun = 3; // tiros para stun
     private GameObject player;
     void Start()
     {
@@ -23,7 +23,7 @@ public class BossAtirando : MonoBehaviour
     {
         float distance = Vector2.Distance(transform.position, player.transform.position);
 
-        if (distance < 10)
+        if (distance < 20)
         {
             timer += Time.deltaTime;
 
