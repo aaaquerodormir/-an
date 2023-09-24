@@ -47,9 +47,18 @@ public class StunBullet : MonoBehaviour
             {
                 playerHealth.TakeDamage(8);
                 playerControl.Stun(stunDuration);
+                if (playerHealth.health <= 0)
+                {
+                    PerformPlayerRespawn(other.gameObject); // Chama a função de respawn se o jogador morrer.
+                }
                 Destroy(gameObject); // Destroi a bala.
             }
         }
+    }
+    void PerformPlayerRespawn(GameObject player)
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 }
 

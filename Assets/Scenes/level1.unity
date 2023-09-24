@@ -432,6 +432,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teto (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2000,6 +2004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Carangueijo
       objectReference: {fileID: 0}
+    - target: {fileID: 8375918783285141199, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
 --- !u!1 &278258044
@@ -2394,6 +2402,10 @@ PrefabInstance:
     - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_Name
       value: Teto
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
@@ -2901,6 +2913,26 @@ PrefabInstance:
       propertyPath: FadeObj
       value: 
       objectReference: {fileID: 1619139287}
+    - target: {fileID: 1619139287, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619139292, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 789.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619139292, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 456.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619139292, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1619139292, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000019073
+      objectReference: {fileID: 0}
     - target: {fileID: 679933415458479921, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
       propertyPath: m_Camera
       value: 
@@ -2995,11 +3027,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 679933415723333724, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -802
+      value: -760
       objectReference: {fileID: 0}
     - target: {fileID: 679933415723333724, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 398
+      value: 289
       objectReference: {fileID: 0}
     - target: {fileID: 679933415986953878, guid: 1d23fdc4fccb1184aadb117d92c9a686, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -3371,6 +3403,10 @@ PrefabInstance:
     - target: {fileID: 8375918783285141199, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
       propertyPath: m_Name
       value: Carangueijo (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375918783285141199, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4368483072347136090, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
@@ -4452,7 +4488,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1005875026322631830, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
       propertyPath: m_SortingOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2436569542686950758, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
       propertyPath: m_Enabled
@@ -4513,6 +4549,10 @@ PrefabInstance:
     - target: {fileID: 8375918783285141199, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
       propertyPath: m_Name
       value: Carangueijo (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8375918783285141199, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71e0253a0eb58c240a84a65de3bf33c0, type: 3}
@@ -5324,6 +5364,10 @@ PrefabInstance:
     - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_Name
       value: Teto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
@@ -6528,6 +6572,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mini na direita
       objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -7326,6 +7374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mini na esquerda
       objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -7528,6 +7580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teto (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -7710,6 +7766,10 @@ PrefabInstance:
     - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_Name
       value: Teto (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
@@ -8831,6 +8891,10 @@ PrefabInstance:
     - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_Name
       value: Teto (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
@@ -39051,6 +39115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Teto (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -39410,6 +39478,10 @@ PrefabInstance:
     - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_Name
       value: Teto (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4803452370927495218, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4803452370927495219, guid: 61612d3322700fd4e8f303c37f14f521, type: 3}
       propertyPath: m_RootOrder
@@ -40008,7 +40080,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 50516375948837600, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_Mass
-      value: 5
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114537307953015748, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
+      propertyPath: platformLayer.m_Bits
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 519253315082278868, guid: beb33cbb9757ee346b2d0a24573efbef, type: 3}
       propertyPath: m_Layer

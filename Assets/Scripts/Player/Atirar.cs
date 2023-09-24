@@ -7,7 +7,7 @@ public class Atirar : MonoBehaviour
     public Animator anima;
     public Transform shootingPoint;
     public GameObject bulletPrefab;
-    private float Delay = 0.5f;
+    private float Delay = 0.2f;
     private bool CanFire = true;
 
     private void Update()

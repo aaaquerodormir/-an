@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VenenoDamage : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class VenenoDamage : MonoBehaviour
         {
             // Obtém uma referência ao script de vida do jogador
             playerHealth = other.GetComponent<PlayerHealth>();
+            if (playerHealth.health <= 0)
+            {
+                PerformPlayerRespawn(other.gameObject); // Chama a função de respawn se o jogador morrer.
+            }
         }
     }
 
@@ -54,5 +59,10 @@ public class VenenoDamage : MonoBehaviour
         }
 
    
+    }
+    void PerformPlayerRespawn(GameObject player)
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 }

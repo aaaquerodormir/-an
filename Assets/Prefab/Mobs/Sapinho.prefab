@@ -47,6 +47,7 @@ GameObject:
   - component: {fileID: 3043849664106155537}
   - component: {fileID: 3043849664106155535}
   - component: {fileID: 3408926073482648799}
+  - component: {fileID: 7315833780996794046}
   m_Layer: 0
   m_Name: Sapinho
   m_TagString: Damage
@@ -219,6 +220,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.45050833, y: 0.41589397}
   m_EdgeRadius: 0
+--- !u!114 &7315833780996794046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3043849664106155531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d918e5dcf68e9e74ea2d9769d669b002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lives: 5
 --- !u!1001 &2803713330220249095
 PrefabInstance:
   m_ObjectHideFlags: 0
