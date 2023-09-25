@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class bau : MonoBehaviour
 {
-    public string level;
+    public string level2;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Player"))
         {
             if(other.gameObject.GetComponent<Control>().temChave == true && other.gameObject.tag == "Player")
             {
-                MyLoading.LoadLevel(level);
+                MyLoading.LoadLevel(level2);
                 Debug.Log("Abrir Bau");
             }
             else
